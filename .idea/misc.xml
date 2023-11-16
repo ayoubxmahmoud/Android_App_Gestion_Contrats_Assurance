@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/drawable/dashboard_item_0_background.xml" value="0.2375" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/drawable/rounded_btn.xml" value="0.205" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/drawable/rounded_button.xml" value="0.32" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/drawable/rounded_button0.xml" value="0.17" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/drawable/rounded_edittext.xml" value="0.1945" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout-land/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout-land/activity_pie_graph.xml" value="0.446875" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout-land/custom_list.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout-land/row.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_accueil_admin.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_accueil_client.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_add.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_add_contract_by_agent.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_add_contract_by_client.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_agent_add.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_contrats.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_delete_contract.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_display_contract.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_modify.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_modify_contract.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_notification.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_on_deleting_contract.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_on_displying_contract.xml" value="0.3351851851851852" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_on_modifying_contract.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_profil_admin.xml" value="0.3609375" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_profil_client.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_questions_assurance.xml" value="0.1" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_show_contracts.xml" value="0.3609375" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_verify.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/activity_verify_contract.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/dashboard_agent.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/dashboard_client.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Documents/Kotlin/Assurance/app/src/main/res/layout/row.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

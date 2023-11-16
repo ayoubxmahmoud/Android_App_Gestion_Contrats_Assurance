@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddContractByAgent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dashboard_item_6_background"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Ajouter un nouvelle  contrat"
+            android:textColor="@color/colorLightText"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="378dp"
+        android:layout_height="724dp">
+
+        <LinearLayout
+            android:layout_width="346dp"
+            android:layout_height="492dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="50dp"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/numClient"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="10dp"
+                    android:text="CIN"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/value_cin"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="10dp"
+                    android:text="CIN"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/branche"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Type de contrat:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/value_branche"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="branche"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/numcontrat"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="numéro de contrat"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/NumC"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:hint="Entrer le numéro"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/date_debut"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="date début:"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/first_day"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:hint="jour"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_month1"
+                    android:layout_width="154dp"
+                    android:layout_height="38dp"
+                    android:layout_marginBottom="10dp"
+                    android:entries="@array/months" />
+
+                <EditText
+                    android:id="@+id/first_year"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:hint="année"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/date_fin"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="date fin"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/last_day"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:hint="jour"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_month2"
+                    android:layout_width="154dp"
+                    android:layout_height="38dp"
+                    android:layout_marginBottom="10dp"
+                    android:entries="@array/months" />
+
+                <EditText
+                    android:id="@+id/last_year"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:hint="année"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/valeur_assure"
+                android:layout_width="253dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="valeur assurée"
+                android:inputType="text"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="#F33A3A3C"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/addBtnByA"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/dashboard_item_6_background"
+                android:text="ajouter"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#00BCD4" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>

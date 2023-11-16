@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AccueilAdmin">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/sign_background" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="378dp"
+        android:layout_height="552dp">
+
+        <LinearLayout
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="sign up"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nom"
+                android:layout_width="317dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/person_icon"
+                android:drawableLeft="@drawable/person_icon"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="Nom"
+                android:inputType="text"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/prenom"
+                android:layout_width="319dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/person_icon"
+                android:drawableLeft="@drawable/person_icon"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="Prénom"
+                android:inputType="text"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/cin"
+                android:layout_width="318dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/person_icon"
+                android:drawableLeft="@drawable/person_icon"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="Numéro de CIN"
+                android:inputType="text"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/adresseRegister"
+                android:layout_width="319dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/person_icon"
+                android:drawableLeft="@drawable/person_icon"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="Adresse"
+                android:inputType="text"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emailRegister"
+                android:layout_width="315dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/mdpRegister"
+                android:layout_width="317dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="Mot de passe"
+                android:inputType="textPassword"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/mdpCRegister"
+                android:layout_width="318dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="Confirmer le mot de passe"
+                android:inputType="textWebPassword"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/telC"
+                android:layout_width="314dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/phone_icon"
+                android:drawableLeft="@drawable/phone_icon"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="Téléphone"
+                android:imeOptions="actionPrevious"
+                android:inputType="phone"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/agreement_checkbox"
+                android:layout_width="342dp"
+                android:layout_height="94dp"
+                android:text="J'ai lu et j'accepte les conditions générales d’utilisations, notamment la mention relative à la protection des données personnelles"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#000000"
+                android:text="S'inscrire"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#090808" />
+
+            <Button
+                android:id="@+id/register_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="Avez-vous un compte? S'identifier."
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
