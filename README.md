@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="app/src/main/res/drawable/assurance_app.png" align="center" width="450" height="450" />
+  <img src="app/src/main/res/drawable/assurance_app.png" align="center" width="500" height="500" />
 <p>
 
 <h1 align="center">Insurance Online</h1>
