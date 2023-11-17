@@ -21,6 +21,11 @@ To install the application, follow these steps:
 4. Add the `google-services.json` file to the app folder in the project. Make sure that the file is named exactly `google-services.json` and is located in the app/ directory.
 5. Build and run the app on an emulator or a physical device.
 
+## Quick Demo:
+### Customer Space:
+  https://drive.google.com/file/d/1w67XULQ8H4eNQVsALPMfsZ6MRcaiIw3R/view?usp=sharing
+### Admin Space:
+  https://drive.google.com/file/d/1NAkiz03VrlSXJA-chKrTAS_Dmb296Fix/view?usp=sharing
 ## Contributing
 
 Contributions to the application are welcome. If you find any bugs or have any suggestions for improvement, please create an issue or a pull request on the GitHub repository.
